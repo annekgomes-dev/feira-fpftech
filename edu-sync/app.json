@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "EduSync",
+    "slug": "edu-sync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/transparent-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/adaptive-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFAFA"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/logo.png",
+        "backgroundColor": "#FFFAFA"
+      },
+      "package": "com.edutechlabs.edusync",
+      "newArchEnabled": true
+    },
+    "web": {
+      "favicon": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f29806a6-1202-447e-b411-fc80701d3e11"
+      }
+    },
+    "owner": "anne-gomes"
+  }
+}
